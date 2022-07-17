@@ -1,13 +1,11 @@
 import MapWrapper from "./MapWrapper";
 import Flag from "./Flag";
-import React, {Component, useEffect, useState} from 'react';
-import ReactDOM from 'react-dom/client';
-import {Container, Box} from '@mui/material';
+import React, {useEffect, useState} from 'react';
+import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Toolbar from '@mui/material/Toolbar';
 import AppBar from '@mui/material/AppBar';
 import Grid from '@mui/material/Grid';
-import { count } from "d3";
 import SidePanel from "./SidePanel";
 
 

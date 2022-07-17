@@ -8,7 +8,7 @@ import Modal from '@mui/material/Modal';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardHeader from '@mui/material/CardHeader';
-import { ButtonGroup } from '@mui/material';
+import ButtonGroup  from '@mui/material/ButtonGroup';
 
 
 class MapWrapper extends Component {
@@ -49,7 +49,7 @@ class MapWrapper extends Component {
     if (this.state.selectedCountryCode === this.props.countryCode) {
       this.countryFills[this.state.selectedCountryCode] = { fillKey: 'SUCCESS' };
       Object.entries(this.countryFills).forEach(([key, value]) => {
-        if (value["fillKey"] != 'SUCCESS' && value["fillKey"] != 'SKIPPED') {
+        if (value["fillKey"] !== 'SUCCESS' && value["fillKey"] !== 'SKIPPED') {
           value["fillKey"] = 'UNSELECTED';
         }
       });
@@ -76,9 +76,9 @@ class MapWrapper extends Component {
         element: document.getElementById('mapPlaceholder'),
         done: function (datamap) {
           datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
-            if (that.countryFills[geography.id] === undefined || that.countryFills[geography.id]["fillKey"] == 'UNSELECTED') {
+            if (that.countryFills[geography.id] === undefined || that.countryFills[geography.id]["fillKey"] === 'UNSELECTED') {
               that.countryFills[geography.id] = { fillKey: 'SELECTED' };
-              if (that.state.selectedCountryCode != "" && that.countryFills[that.state.selectedCountryCode]["fillKey"] == 'SELECTED') {
+              if (that.state.selectedCountryCode !== "" && that.countryFills[that.state.selectedCountryCode]["fillKey"] === 'SELECTED') {
                 that.countryFills[that.state.selectedCountryCode] = { fillKey: 'UNSELECTED' };
               }
               datamap.updateChoropleth(that.countryFills);
@@ -176,7 +176,7 @@ class MapWrapper extends Component {
       (center[1] - view.y) / view.k
     ];
 
-    if (direction == "reset") {
+    if (direction === "reset") {
       view.k = 1;
       this.scrolled = true;
     } else {
@@ -258,7 +258,7 @@ class MapWrapper extends Component {
         shift++;
       }
 
-      if (direction == "out" && shift > 0) {
+      if (direction === "out" && shift > 0) {
         shift--;
       }
 
@@ -268,7 +268,7 @@ class MapWrapper extends Component {
 
       shift = this.scale.currentShift;
 
-      if (direction == "out") {
+      if (direction === "out") {
         shift > 0 && shift--;
       } else {
         shift < lastShift && shift++;
