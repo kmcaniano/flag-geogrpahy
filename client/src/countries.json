@@ -1,0 +1,1001 @@
+{
+    "AFG" : {
+        "name": "Afghanistan",
+        "characteristics": ["3evs", "coat-of-arms", "text", "vs"],
+        "primary-colors": ["black", "red", "green"],
+        "secondary-colors": ["white"]
+    },
+    "ALB": {
+        "name": "Albania",
+        "characteristics": ["eagle", "bird", "single-background-color"],
+        "primary-colors": ["red", "black"],
+        "secondary-colors": []
+    },
+    "DZA": {
+        "name": "Algeria",
+        "characteristics": ["crescent", "2evs", "vs"],
+        "primary-colors": ["green", "white"],
+        "secondary-colors": ["red"]
+    },    "AND": {
+        "name": "Andorra",
+        "characteristics": ["3uvs", "coat-of-arms", "vs"],
+        "primary-colors": ["blue", "yellow", "red"],
+        "secondary-colors": []
+    },    "AGO": {
+        "name": "Angola",
+        "characteristics": ["2hs", "weapon", "agriculture", "hs"],
+        "primary-colors": ["red", "black"],
+        "secondary-colors": ["yellow"]
+    },    "ATG": {
+        "name": "Antigua and Barbuda",
+        "characteristics": ["triangles", "3uhs", "sun", "hs"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["black", "yellow", "blue", "white"]
+    },    "ARG": {
+        "name": "Argentina",
+        "characteristics": ["sun", "3ehs", "hs"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": ["yellow"]
+    },    "ARM": {
+        "name": "Armenia",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "blue", "orange"],
+        "secondary-colors": []
+    },    "ABW": {
+        "name": "Aruba",
+        "characteristics": ["stars", "stripes"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["red", "yellow"]
+    },    "AUS": {
+        "name": "Australia",
+        "characteristics": ["southern-cross", "stars", "union-jack", "canton"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["red", "white"]
+    },    "AUT": {
+        "name": "Austria",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },    "AZE": {
+        "name": "Azerbaijan",
+        "characteristics": ["3ehs", "hs", "crescent"],
+        "primary-colors": ["blue", "red", "green"],
+        "secondary-colors": ["white"]
+    },    "BHS": {
+        "name": "Bahamas",
+        "characteristics": ["triangle", "t-hoist", "3ehs", "hs"],
+        "primary-colors": ["blue", "yellow", "black"],
+        "secondary-colors": []
+    },    "BHR": {
+        "name": "Bahrain",
+        "characteristics": ["2uvs", "vs", "serrated"],
+        "primary-colors": ["white", "red"],
+        "secondary-colors": []
+    },    "BGD": {
+        "name": "Bangladesh",
+        "characteristics": ["circle"],
+        "primary-colors": ["green"],
+        "secondary-colors": ["red"]
+    },    "BRB": {
+        "name": "Barbados",
+        "characteristics": ["3evs", "vs", "weapon"],
+        "primary-colors": ["blue", "yellow"],
+        "secondary-colors": ["black"]
+    },    "BLR": {
+        "name": "Belarus",
+        "characteristics": ["2uhs", "hs", "vs-hoist"],
+        "primary-colors": ["red", "green"],
+        "secondary-colors": ["white"]
+    },    "BEL": {
+        "name": "Belgium",
+        "characteristics": ["3evs", "vs", "uncommon-shape"],
+        "primary-colors": ["black", "yellow", "red"],
+        "secondary-colors": []
+    },    "BLZ": {
+        "name": "Belize",
+        "characteristics": ["circle", "3uhs", "hs", "thin-thick", "coat-of-arms"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["white", "red"]
+    },    "BEN": {
+        "name": "Benin",
+        "characteristics": ["2ehs", "hs", "vs-hoist"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": []
+    },    "BMU": {
+        "name": "Bermuda",
+        "characteristics": ["union-jack", "coat-of-arms"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["white", "blue"]
+    },    "BTN": {
+        "name": "Bhutan",
+        "characteristics": ["2ds", "ds", "dragon"],
+        "primary-colors": ["yellow", "orange"],
+        "secondary-colors": ["white"]
+    },    "BOL": {
+        "name": "Bolivia",
+        "characteristics": ["3hs", "hs", "coat-of-arms"],
+        "primary-colors": ["red", "yellow", "green"],
+        "secondary-colors": []
+    },    "BIH": {
+        "name": "Bosnia and Herzegovina",
+        "characteristics": ["stars", "triangle"],
+        "primary-colors": ["blue", "yellow"],
+        "secondary-colors": ["white"]
+    },    "BWA": {
+        "name": "Botswana",
+        "characteristics": ["3uhs", "hs", "thin-thick"],
+        "primary-colors": ["blue", "black"],
+        "secondary-colors": ["white"]
+    },    "BRN": {
+        "name": "Brunei",
+        "characteristics": ["crescent", "body-part", "text", "2ds", "ds"],
+        "primary-colors": ["yellow"],
+        "secondary-colors": ["white", "black", "red"]
+    },    "BGR": {
+        "name": "Bulgaria",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["white", "green", "red"],
+        "secondary-colors": []
+    },    "BRA": {
+        "name": "Brazil",
+        "characteristics": ["stars", "southern-cross", "circle", "text"],
+        "primary-colors": ["green", "yellow"],
+        "secondary-colors": ["blue", "white"]
+    },    "BFA": {
+        "name": "Burkina Faso",
+        "characteristics": ["2hs", "hs", "stars"],
+        "primary-colors": ["red", "green"],
+        "secondary-colors": ["yellow"]
+    },    "BDI": {
+        "name": "Burundi",
+        "characteristics": ["stars", "circle", "diagonal-cross", "4et"],
+        "primary-colors": ["green", "red"],
+        "secondary-colors": ["white"]
+    },    "CPV": {
+        "name": "Cape Verde",
+        "characteristics": ["stars", "stripes", "5uhs", "hs"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["white", "red", "yellow"]
+    },    "KHM": {
+        "name": "Cambodia",
+        "characteristics": ["3uhs", "hs", "thin-thick", "building"],
+        "primary-colors": ["blue", "red"],
+        "secondary-colors": ["white"]
+    },    "CMR": {
+        "name": "Cameroon",
+        "characteristics": ["3evs", "vs", "stars"],
+        "primary-colors": ["green", "red", "yellow"],
+        "secondary-colors": ["yellow"]
+    },    "CAN": {
+        "name": "Canada",
+        "characteristics": ["3uvs", "vs", "plants"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },    "CAF": {
+        "name": "Central African Republic",
+        "characteristics": ["stars", "4ehs", "hs", "1vs"],
+        "primary-colors": ["blue", "white", "green", "yellow", "red"],
+        "secondary-colors": ["yellow"]
+    },    "TCD": {
+        "name": "Chad",
+        "characteristics": ["3vs", "vs"],
+        "primary-colors": ["blue", "yellow", "red"],
+        "secondary-colors": []
+    },    "CHL": {
+        "name": "Chile",
+        "characteristics": ["stars", "canton", "2ehs", "hs"],
+        "primary-colors": ["blue", "white", "red"],
+        "secondary-colors": ["white"]
+    },    "CHN": {
+        "name": "China",
+        "characteristics": ["stars"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["yellow"]
+    },    "COL": {
+        "name": "Colombia",
+        "characteristics": ["3uhs", "hs"],
+        "primary-colors": ["yellow", "blue", "red"],
+        "secondary-colors": []
+    },    "COM": {
+        "name": "Comoros",
+        "characteristics": ["crescent", "4ehs", "hs", "t-hoist"],
+        "primary-colors": ["yellow", "white", "red", "blue", "green"],
+        "secondary-colors": ["white"]
+    },    "COD": {
+        "name": "Democratic Republic of the Congo",
+        "characteristics": ["stars", "3ds", "ds"],
+        "primary-colors": ["blue", "red"],
+        "secondary-colors": ["yellow"]
+    },    "COG": {
+        "name": "Republic of the Congo",
+        "characteristics": ["3ds", "ds"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": []
+    },    "CRI": {
+        "name": "Costa Rica",
+        "characteristics": ["5uhs", "hs", "coat-of-arms"],
+        "primary-colors": ["red", "blue", "white"],
+        "secondary-colors": []
+    },    "HRV": {
+        "name": "Croatia",
+        "characteristics": ["3ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    },    "CUB": {
+        "name": "Cuba",
+        "characteristics": ["stars", "t-hoist", "5ehs", "hs"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    },    "CUW": {
+        "name": "Curaçao",
+        "characteristics": ["stars", "1hs"],
+        "primary-colors": ["blue", "yellow"],
+        "secondary-colors": ["white"]
+    },    "CYP": {
+        "name": "Cyprus",
+        "characteristics": ["plants", "map"],
+        "primary-colors": ["white"],
+        "secondary-colors": ["brown", "green"]
+    },    "CZE": {
+        "name": "Czechia",
+        "characteristics": ["t-hoist", "2ehs", "hs"],
+        "primary-colors": ["blue", "white", "red"],
+        "secondary-colors": []
+    },    "CIV": {
+        "name": "Côte d'Ivoire",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["orange", "white", "green"],
+        "secondary-colors": []
+    },    "DNK": {
+        "name": "Denmark",
+        "characteristics": ["nordic-cross"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },    "DJI": {
+        "name": "Djibouti",
+        "characteristics": ["stars", "t-hoist", "2ehs", "hs"],
+        "primary-colors": [],
+        "secondary-colors": []
+    },    "DMA": {
+        "name": "Dominica",
+        "characteristics": ["stars", "circle", "cross", "bird", "parrot"],
+        "primary-colors": ["green", "yellow", "black", "white"],
+        "secondary-colors": ["red", "purple"]
+    },    "DOM": {
+        "name": "Dominican Republic",
+        "characteristics": ["cross", "coat-of-arms"],
+        "primary-colors": ["blue", "red", "white"],
+        "secondary-colors": []
+    },    "ECU": {
+        "name": "Ecuador",
+        "characteristics": ["3uhs", "hs", "coat-of-arms"],
+        "primary-colors": ["yellow", "blue", "red"],
+        "secondary-colors": []
+    },    "EGY": {
+        "name": "Egypt",
+        "characteristics": ["3ehs", "hs", "eagle", "bird"],
+        "primary-colors": ["red", "white", "black"],
+        "secondary-colors": ["yellow"]
+    },    "SLV": {
+        "name": "El Salvador",
+        "characteristics": ["uncommon-shape", "3ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },    "GNQ": {
+        "name": "Equatorial Guinea",
+        "characteristics": ["coat-of-arms", "3ehs", "hs", "t-hoist"],
+        "primary-colors": ["green", "white", "red", "blue"],
+        "secondary-colors": []
+    },    "ERI": {
+        "name": "Eritrea",
+        "characteristics": ["t-hoist", "3ds", "ds", "plants"],
+        "primary-colors": ["red", "green", "blue"],
+        "secondary-colors": ["yellow"]
+    },    "EST": {
+        "name": "Estonia",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["blue", "black", "white"],
+        "secondary-colors": []
+    },    "SWZ": {
+        "name": "Eswatini",
+        "characteristics": ["5uhs", "hs", "weapon"],
+        "primary-colors": ["red", "blue", "yellow"],
+        "secondary-colors": ["yellow", "black", "white"]
+    },    "ETH": {
+        "name": "Ethiopia",
+        "characteristics": ["circle", "3ehs", "3hs", "stars"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": ["blue", "yellow"]
+    },    "FJI": {
+        "name": "Fiji",
+        "characteristics": ["union-jack", "coat-of-arms"],
+        "primary-colors": ["blue"],
+        "secondary-colors": []
+    },    "FIN": {
+        "name": "Finland",
+        "characteristics": ["nordic-cross"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },    "FRA": {
+        "name": "France",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["blue", "white", "red"],
+        "secondary-colors": []
+    },    "GAB": {
+        "name": "Gabon",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["green", "white", "blue"],
+        "secondary-colors": []
+    },    "GMB": {
+        "name": "Gambia",
+        "characteristics": ["3uhs", "hs"],
+        "primary-colors": ["red", "blue", "green"],
+        "secondary-colors": ["white"]
+    },    "GEO": {
+        "name": "Georgia",
+        "characteristics": ["cross"],
+        "primary-colors": ["white", "red"],
+        "secondary-colors": []
+    },    "DEU": {
+        "name": "Germany",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["black", "red", "yellow"],
+        "secondary-colors": []
+    },    "GHA": {
+        "name": "Ghana",
+        "characteristics": ["stars", "3evs", "vs"],
+        "primary-colors": ["red", "yellow", "green"],
+        "secondary-colors": ["black"]
+    },    "GRC": {
+        "name": "Greece",
+        "characteristics": ["9ehs", "hs", "cross", "canton"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },    "GRD": {
+        "name": "Grenada",
+        "characteristics": ["stars", "circle", "4et"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": []
+    }, "GTM": {
+        "name": "Guatemala",
+        "characteristics": ["3evs", "vs", "coat-of-arms"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },    "GIN": {
+        "name": "Guinea",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["red", "yellow", "green"],
+        "secondary-colors": []
+    },    "GNB": {
+        "name": "Guinea-Bissau",
+        "characteristics": ["stars", "2ehs", "hs", "vs-hoist"],
+        "primary-colors": ["red", "yellow", "green"],
+        "secondary-colors": ["black"]
+    },
+    "GUY": {
+        "name": "Guyana",
+        "characteristics": ["t-hoist", "ds"],
+        "primary-colors": ["red", "yellow", "green"],
+        "secondary-colors": ["black", "white"]
+    },     "HTI": {
+        "name": "Haiti",
+        "characteristics": ["2ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": []
+    },     "HND": {
+        "name": "Honduras",
+        "characteristics": ["stars", "3ehs", "hs"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },     "HUN": {
+        "name": "Hungary",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "white", "green"],
+        "secondary-colors": []
+    },     "ISL": {
+        "name": "Iceland",
+        "characteristics": ["nordic-cross"],
+        "primary-colors": ["blue", "red", "white"],
+        "secondary-colors": []
+    },     "IND": {
+        "name": "India",
+        "characteristics": ["circle", "3ehs", "hs", "other-symbol"],
+        "primary-colors": ["orange", "white", "green"],
+        "secondary-colors": ["blue"]
+    },     "IDN": {
+        "name": "Indonesia",
+        "characteristics": ["2ehs", "hs"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },     "IRN": {
+        "name": "Iran",
+        "characteristics": ["3ehs", "hs", "emblem"],
+        "primary-colors": ["green", "white", "red"],
+        "secondary-colors": ["red"]
+    },     "IRQ": {
+        "name": "Iraq",
+        "characteristics": ["3ehs", "hs", "text"],
+        "primary-colors": ["red", "white", "black"],
+        "secondary-colors": []
+    },     "IRL": {
+        "name": "Ireland",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["green", "white", "orange"],
+        "secondary-colors": []
+    },     "ISR": {
+        "name": "Israel",
+        "characteristics": ["stars", "3uhs", "hs"],
+        "primary-colors": ["white", "blue"],
+        "secondary-colors": []
+    },     "ITA": {
+        "name": "Italy",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["green", "white", "red"],
+        "secondary-colors": []
+    },     "JAM": {
+        "name": "Jamaica",
+        "characteristics": ["t-hoist", "diagonal-cross", "4et"],
+        "primary-colors": [],
+        "secondary-colors": []
+    },     "JPN": {
+        "name": "Japan",
+        "characteristics": ["circle"],
+        "primary-colors": ["white"],
+        "secondary-colors": ["red"]
+    },     "JOR": {
+        "name": "Jordan",
+        "characteristics": ["star", "t-hoist", "3ehs", "hs"],
+        "primary-colors": ["black", "white", "green", "red"],
+        "secondary-colors": ["white"]
+    },     "KAZ": {
+        "name": "Kazakhstan",
+        "characteristics": ["circle", "sun", "eagle", "bird"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["yellow"]
+    },     "KEN": {
+        "name": "Kenya",
+        "characteristics": ["3ehs", "hs", "weapon"],
+        "primary-colors": ["black", "red", "green"],
+        "secondary-colors": ["black", "white", "red"]
+    },     "KIR": {
+        "name": "Kiribati",
+        "characteristics": ["sun", "bird"],
+        "primary-colors": ["red", "blue", "white"],
+        "secondary-colors": ["yellow"]
+    },     "PRK": {
+        "name": "North Korea",
+        "characteristics": ["stars", "circle", "thin-thick", "3uhs", "hs"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": ["red", "white"]
+    },     "KOR": {
+        "name": "South Korea",
+        "characteristics": ["circle", "other-symbol"],
+        "primary-colors": ["white"],
+        "secondary-colors": ["red", "blue", "black"]
+    },     "KWT": {
+        "name": "Kuwait",
+        "characteristics": ["3ehs", "hs", "trapezoid-hoist"],
+        "primary-colors": ["green", "white", "red", "black"],
+        "secondary-colors": []
+    },     "KGZ": {
+        "name": "Kyrgyzstan",
+        "characteristics": ["sun"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["yellow"]
+    },     "LAO": {
+        "name": "Laos",
+        "characteristics": ["circle", "3uhs", "hs", "thin-thick"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": ["white"]
+    },     "LVA": {
+        "name": "Latvia",
+        "characteristics": ["3uhs", "hs", "thin-thick"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },     "LBN": {
+        "name": "Lebanon",
+        "characteristics": ["3uhs", "hs", "thin-thick", "plants"],
+        "primary-colors": ["white", "red"],
+        "secondary-colors": ["green"]
+    },     "LSO": {
+        "name": "Lesotho",
+        "characteristics": ["3uhs", "hs", "other-symbol"],
+        "primary-colors": ["blue", "white", "green"],
+        "secondary-colors": ["black"]
+    },     "LBR": {
+        "name": "Liberia",
+        "characteristics": ["star", "canton", "11ehs", "hs"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": ["white"]
+    },     "LBY": {
+        "name": "Libya",
+        "characteristics": ["crescent", "3uhs", "hs"],
+        "primary-colors": ["red", "black", "green"],
+        "secondary-colors": ["white"]
+    },     "LIE": {
+        "name": "Liechtenstein",
+        "characteristics": ["2ehs", "hs", "crown", "canton"],
+        "primary-colors": ["blue", "red"],
+        "secondary-colors": ["yellow"]
+    },     "LTU": {
+        "name": "Lithuania",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["yellow", "green", "red"],
+        "secondary-colors": []
+    },     "LUX": {
+        "name": "Luxembourg",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    },     "MDG": {
+        "name": "Madagascar",
+        "characteristics": ["vs-hoist", "2ehs", "hs"],
+        "primary-colors": ["white", "red", "green"],
+        "secondary-colors": []
+    },     "MWI": {
+        "name": "Malawi",
+        "characteristics": ["3ehs", "hs", "sun"],
+        "primary-colors": ["black", "red", "green"],
+        "secondary-colors": ["red"]
+    },     "MYS": {
+        "name": "Malaysia",
+        "characteristics": ["crescent", "14ehs", "hs", "canton"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": ["yellow"]
+    },     "MDV": {
+        "name": "Maldives",
+        "characteristics": ["crescent"],
+        "primary-colors": ["red", "green"],
+        "secondary-colors": ["white"]
+    },     "MLI": {
+        "name": "Mali",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": []
+    },     "MLT": {
+        "name": "Malta",
+        "characteristics": ["2evs", "vs", "cross", "body-part", "horse", "animal", "canton"],
+        "primary-colors": ["white", "red"],
+        "secondary-colors": []
+    },     "MHL": {
+        "name": "Marshall Islands",
+        "characteristics": ["stars", "ds", "sun"],
+        "primary-colors": ["blue", "orange", "white"],
+        "secondary-colors": ["white"]
+    },     "MRT": {
+        "name": "Mauritania",
+        "characteristics": ["crescent", "3uhs", "hs", "thin-thick"],
+        "primary-colors": ["green", "red"],
+        "secondary-colors": ["yellow"]
+    },     "MUS": {
+        "name": "Mauritius",
+        "characteristics": ["4ehs", "hs"],
+        "primary-colors": ["red", "blue", "yellow", "green"],
+        "secondary-colors": []
+    },     "MEX": {
+        "name": "Mexico",
+        "characteristics": ["3evs", "vs", "eagle", "bird", "coat-of-arms"],
+        "primary-colors": ["green", "white", "red"],
+        "secondary-colors": []
+    },     "FSM": {
+        "name": "Federated States of Micronesia",
+        "characteristics": ["stars"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["white"]
+    },     "MDA": {
+        "name": "Moldova",
+        "characteristics": ["3evs", "vs", "bird", "eagle", "coat-of-arms"],
+        "primary-colors": ["blue", "yellow", "red"],
+        "secondary-colors": []
+    },     "MCO": {
+        "name": "Monaco",
+        "characteristics": ["2ehs", "hs", "uncommon-shape"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },     "MNG": {
+        "name": "Mongolia",
+        "characteristics": ["3evs", "vs", "crescent", "other-symbol"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": ["yellow"]
+    },     "MNE": {
+        "name": "Montenegro",
+        "characteristics": ["eagle", "bird", "coat-of-arms"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["yellow"]
+    },     "MAR": {
+        "name": "Morocco",
+        "characteristics": ["stars"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["black"]
+    },     "MOZ": {
+        "name": "Mozambique",
+        "characteristics": ["t-hoist", "3ehs", "hs", "weapon", "agriculture", "book"],
+        "primary-colors": ["green", "black", "yellow", "red"],
+        "secondary-colors": ["yellow"]
+    },     "MMR": {
+        "name": "Burma",
+        "characteristics": ["3ehs", "hs", "stars"],
+        "primary-colors": ["yellow", "green", "red"],
+        "secondary-colors": ["white"]
+    },     "NAM": {
+        "name": "Namibia",
+        "characteristics": ["3ds", "ds", "stars", "sun"],
+        "primary-colors": ["blue", "red", "green"],
+        "secondary-colors": ["yellow", "white"]
+    },     "NRU": {
+        "name": "Nauru",
+        "characteristics": ["stars", "sun", "1hs", "hs"],
+        "primary-colors": ["blue", "yellow"],
+        "secondary-colors": ["white"]
+    },     "NPL": {
+        "name": "Nepal",
+        "characteristics": ["uncommon-shape", "crescent", "sun"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["white"]
+    },     "NLD": {
+        "name": "Netherlands",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    },     "NZL": {
+        "name": "New Zealand",
+        "characteristics": ["stars", "union-jack", "southern-cross", "canton"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["red", "white", "blue"]
+    },     "NIC": {
+        "name": "Nicaragua",
+        "characteristics": ["3ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": []
+    },     "NER": {
+        "name": "Niger",
+        "characteristics": ["uncommon-shape", "circle", "3ehs", "hs"],
+        "primary-colors": ["orange", "white", "green"],
+        "secondary-colors": ["orange"]
+    },     "NGA": {
+        "name": "Nigeria",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["green", "white"],
+        "secondary-colors": []
+    },     "NIU": {
+        "name": "Niue",
+        "characteristics": ["stars", "union-jack", "canton"],
+        "primary-colors": ["yellow"],
+        "secondary-colors": ["red", "white", "blue", "yellow"]
+    },     "NOR": {
+        "name": "Norway",
+        "characteristics": ["nordic-cross"],
+        "primary-colors": ["red", "blue", "white"],
+        "secondary-colors": []
+    },     "OMN": {
+        "name": "Oman",
+        "characteristics": ["3ehs", "hs", "vs-hoist", "weapon"],
+        "primary-colors": ["red", "white", "green"],
+        "secondary-colors": ["white"]
+    },     "PAK": {
+        "name": "Pakistan",
+        "characteristics": ["crescent", "2uvs", "vs"],
+        "primary-colors": ["green", "white"],
+        "secondary-colors": ["white"]
+    },     "PLW": {
+        "name": "Palau",
+        "characteristics": ["circle", "sun"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["yellow"]
+    },     "PSE": {
+        "name": "Palestine",
+        "characteristics": ["t-hoist", "3ehs", "hs"],
+        "primary-colors": ["black", "white", "green", "red"],
+        "secondary-colors": []
+    },     "PAN": {
+        "name": "Panama",
+        "characteristics": ["stars"],
+        "primary-colors": ["red", "white", "green"],
+        "secondary-colors": ["blue", "red"]
+    },     "PNG": {
+        "name": "Papua New Guinea",
+        "characteristics": ["stars", "southern-cross", "2ds", "ds", "bird"],
+        "primary-colors": ["red", "black"],
+        "secondary-colors": ["yellow"]
+    },     "PRY": {
+        "name": "Paraguay",
+        "characteristics": ["3ehs", "hs", "circle", "coat-of-arms"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    },     "PER": {
+        "name": "Peru",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    },     "PHL": {
+        "name": "Philippines",
+        "characteristics": ["sun", "2ehs", "hs", "t-hoist", "stars"],
+        "primary-colors": ["blue", "red", "white"],
+        "secondary-colors": ["yellow"]
+    },     "POL": {
+        "name": "Poland",
+        "characteristics": ["2ehs", "hs"],
+        "primary-colors": ["white", "red"],
+        "secondary-colors": []
+    },     "PRT": {
+        "name": "Portugal",
+        "characteristics": ["2uvs", "vs", "coat-of-arms"],
+        "primary-colors": ["green", "red"],
+        "secondary-colors": ["yellow"]
+    },     "QAT": {
+        "name": "Qatar",
+        "characteristics": ["serrated", "2uvs", "vs", "uncommon-shape"],
+        "primary-colors": ["white", "purple"],
+        "secondary-colors": []
+    },     "MKD": {
+        "name": "North Macedonia",
+        "characteristics": ["circle", "sun", "diagonal-cross"],
+        "primary-colors": ["red", "yellow"],
+        "secondary-colors": []
+    },     "ROU": {
+        "name": "Romania",
+        "characteristics": ["3evs", "vs"],
+        "primary-colors": ["blue", "yellow", "red"],
+        "secondary-colors": []
+    },     "RUS": {
+        "name": "Russia",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["white", "blue", "red"],
+        "secondary-colors": []
+    },     "RWA": {
+        "name": "Rwanda",
+        "characteristics": ["sun", "3uhs", "hs"],
+        "primary-colors": ["blue", "yellow", "green"],
+        "secondary-colors": ["yellow"]
+    }, "KNA": {
+        "name": "Saint Kitts and Nevis",
+        "characteristics": ["stars", "3ds", "ds"],
+        "primary-colors": ["green", "black", "red"],
+        "secondary-colors": ["white", "yellow"]
+    }, "LCA": {
+        "name": "Saint Lucia",
+        "characteristics": ["triangles"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["yellow", "black", "white"]
+    }, "VCT": {
+        "name": "Saint Vincent and the Grenadines",
+        "characteristics": ["3uvs", "vs", "diamonds"],
+        "primary-colors": ["blue", "yellow", "green"],
+        "secondary-colors": ["green"]
+    }, "WSM": {
+        "name": "Samoa",
+        "characteristics": ["stars", "southern-cross", "canton"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": ["white"]
+    }, "SMR": {
+        "name": "San Marino",
+        "characteristics": ["2ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["white", "blue"],
+        "secondary-colors": []
+    }, "STP": {
+        "name": "Sao Tome and Principe",
+        "characteristics": ["stars", "t-hoist", "thin-thick", "3uhs", "hs"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": ["black"]
+    }, "SAU": {
+        "name": "Saudi Arabia",
+        "characteristics": ["weapon", "text"],
+        "primary-colors": ["green"],
+        "secondary-colors": ["white"]
+    }, "SEN": {
+        "name": "Senegal",
+        "characteristics": ["stars", "3evs", "vs"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": ["green"]
+    }, "SRB": {
+        "name": "Serbia",
+        "characteristics": ["3ehs", "hs", "coat-of-arms", "eagle", "bird"],
+        "primary-colors": ["red", "blue", "white"],
+        "secondary-colors": []
+    }, "SYC": {
+        "name": "Seychelles",
+        "characteristics": ["ds"],
+        "primary-colors": ["blue", "yellow", "red", "white", "green"],
+        "secondary-colors": []
+    }, "SLE": {
+        "name": "Sierra Leone",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["green", "white", "blue"],
+        "secondary-colors": []
+    }, "SGP": {
+        "name": "Singapore",
+        "characteristics": ["crescent", "2ehs", "hs"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": ["white"]
+    }, "SVK": {
+        "name": "Slovakia",
+        "characteristics": ["3ehs", "hs", "coat-of-arms"],
+        "primary-colors": ["white", "blue", "red"],
+        "secondary-colors": []
+    }, "SVN": {
+        "name": "Slovenia",
+        "characteristics": ["3ehs", "hs", "coat-of-arms", "stars"],
+        "primary-colors": ["white", "blue", "red"],
+        "secondary-colors": []
+    }, "SLB": {
+        "name": "Solomon Islands",
+        "characteristics": ["stars", "2ds", "ds"],
+        "primary-colors": ["blue", "yellow", "green"],
+        "secondary-colors": ["white"]
+    }, "SOM": {
+        "name": "Somalia",
+        "characteristics": ["stars"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["white"]
+    }, "ZAF": {
+        "name": "South Africa",
+        "characteristics": ["t-hoist", "ds", "pall"],
+        "primary-colors": ["red", "green", "blue", "black"],
+        "secondary-colors": ["yellow", "white"]
+    }, "SSD": {
+        "name": "South Sudan",
+        "characteristics": ["stars", "t-hoist", "3ehs", "hs"],
+        "primary-colors": ["black", "red", "green", "blue"],
+        "secondary-colors": ["yellow"]
+    }, "ESP": {
+        "name": "Spain",
+        "characteristics": ["3uhs", "horse", "thin-thick", "coat-of-arms"],
+        "primary-colors": ["red", "yellow"],
+        "secondary-colors": []
+    }, "LKA": {
+        "name": "Sri Lanka",
+        "characteristics": ["lion", "animal", "weapon"],
+        "primary-colors": ["yellow", "maroon", "orange", "green"],
+        "secondary-colors": []
+    }, "SDN": {
+        "name": "Sudan",
+        "characteristics": ["t-hoist", "3ehs", "hs"],
+        "primary-colors": ["red", "white", "black", "green"],
+        "secondary-colors": []
+    }, "SUR": {
+        "name": "Suriname",
+        "characteristics": ["5uhs", "hs", "stars"],
+        "primary-colors": ["green", "white", "red"],
+        "secondary-colors": ["yellow"]
+    }, "SWE": {
+        "name": "Sweden",
+        "characteristics": ["nordic-cross"],
+        "primary-colors": ["yellow", "blue"],
+        "secondary-colors": []
+    }, "CHE": {
+        "name": "Switzerland",
+        "characteristics": ["uncommon-shape", "cross"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": []
+    }, "SYR": {
+        "name": "Syria",
+        "characteristics": ["stars", "3ehs", "hs"],
+        "primary-colors": ["red", "white", "black"],
+        "secondary-colors": ["green"]
+    }, "TWN": {
+        "name": "Taiwan",
+        "characteristics": ["canton", "sun"],
+        "primary-colors": ["red", "blue"],
+        "secondary-colors": ["white"]
+    }, "TJK": {
+        "name": "Tajikistan",
+        "characteristics": ["stars", "3uhs", "hs", "crown"],
+        "primary-colors": ["red", "white", "green"],
+        "secondary-colors": ["yellow"]
+    }, "TZA": {
+        "name": "Tanzania",
+        "characteristics": ["3ds", "ds"],
+        "primary-colors": ["green", "black", "blue"],
+        "secondary-colors": ["yellow"]
+    }, "THA": {
+        "name": "Thailand",
+        "characteristics": ["5uhs", "hs"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": []
+    }, "TLS": {
+        "name": "East Timor",
+        "characteristics": ["t-hoist", "stars", "triangles"],
+        "primary-colors": ["red", "black", "yellow"],
+        "secondary-colors": ["white"]
+    }, "TGO": {
+        "name": "Togo",
+        "characteristics": ["stars", "canton", "uncommon-shape", "5ehs", "hs"],
+        "primary-colors": ["green", "yellow", "red"],
+        "secondary-colors": ["white"]
+    }, "TON": {
+        "name": "Tonga",
+        "characteristics": ["cross", "canton"],
+        "primary-colors": ["red", "white"],
+        "secondary-colors": ["red"]
+    }, "TTO": {
+        "name": "Trinidad and Tobago",
+        "characteristics": ["3ds", "ds"],
+        "primary-colors": ["red", "black"],
+        "secondary-colors": ["white"]
+    }, "TUN": {
+        "name": "Tunisia",
+        "characteristics": ["crescent"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["white"]
+    }, "TUR": {
+        "name": "Turkey",
+        "characteristics": ["crescent"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["white"]
+    }, "TKM": {
+        "name": "Turkmenistan",
+        "characteristics": ["crescent", "stars"],
+        "primary-colors": ["green"],
+        "secondary-colors": ["red", "white", "yellow", "green"]
+    }, "TUV": {
+        "name": "Tuvalu",
+        "characteristics": ["stars", "union-jack", "canton", "map"],
+        "primary-colors": ["blue"],
+        "secondary-colors": ["yellow", "red", "white", "blue"]
+    }, "UGA": {
+        "name": "Uganda",
+        "characteristics": ["circle", "bird", "6ehs", "hs"],
+        "primary-colors": ["black", "yellow", "red"],
+        "secondary-colors": ["white"]
+    }, "UKR": {
+        "name": "Ukraine",
+        "characteristics": ["2ehs", "hs"],
+        "primary-colors": ["blue", "yellow"],
+        "secondary-colors": []
+    }, "ARE": {
+        "name": "United Arab Emirates",
+        "characteristics": ["3ehs", "hs", "vs-hoist"],
+        "primary-colors": ["green", "white", "black", "red"],
+        "secondary-colors": []
+    }, "GBR": {
+        "name": "United Kingdom",
+        "characteristics": ["union-jack", "cross"],
+        "primary-colors": ["blue", "red", "white"],
+        "secondary-colors": []
+    }, "USA": {
+        "name": "United States of America",
+        "characteristics": ["13ehs", "hs", "canton", "stars"],
+        "primary-colors": ["red", "white", "blue"],
+        "secondary-colors": ["white"]
+    }, "URY": {
+        "name": "Uruguay",
+        "characteristics": ["9ehs", "hs", "canton", "sun", "body-part"],
+        "primary-colors": ["blue", "white"],
+        "secondary-colors": ["yellow"]
+    }, "UZB": {
+        "name": "Uzbekistan",
+        "characteristics": ["stars", "crescent", "3ehs", "hs"],
+        "primary-colors": ["blue", "white", "green"],
+        "secondary-colors": ["red", "white"]
+    }, "VUT": {
+        "name": "Vanuatu",
+        "characteristics": ["t-hoist", "pall", "ds", "plants"],
+        "primary-colors": ["black", "red", "green"],
+        "secondary-colors": ["yellow"]
+    }, "VEN": {
+        "name": "Venezuela",
+        "characteristics": ["stars", "3ehs", "hs"],
+        "primary-colors": ["yellow", "blue", "red"],
+        "secondary-colors": ["white"]
+    }, "VNM": {
+        "name": "Vietnam",
+        "characteristics": ["stars"],
+        "primary-colors": ["red"],
+        "secondary-colors": ["yellow"]
+    }, "YEM": {
+        "name": "Yemen",
+        "characteristics": ["3ehs", "hs"],
+        "primary-colors": ["red", "white", "black"],
+        "secondary-colors": []
+    }, "ZMB": {
+        "name": "Zambia",
+        "characteristics": ["eagle", "bird"],
+        "primary-colors": ["green"],
+        "secondary-colors": ["red", "black", "orange", "yellow"]
+    }, "ZWE": {
+        "name": "Zimbabwe",
+        "characteristics": ["t-hoist", "bird", "7ehs", "hs", "stars"],
+        "primary-colors": ["green", "yellow", "red", "black", "white"],
+        "secondary-colors": ["yellow", "red"]
+    }
+}
