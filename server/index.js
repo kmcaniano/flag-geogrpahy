@@ -5,7 +5,13 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-app.use('/flags',express.static(path.join(__dirname, 'public/flags')));
+var options = {
+  setHeaders: function (res, path, stat) {
+    res.contentType('image/png')
+  }
+}
+
+app.use('/flags',express.static(path.join(__dirname, 'public/flags'), options));
 app.use('/topoJson',express.static(path.join(__dirname, 'public/topoJson')));
 
 app.listen(PORT, () => {
