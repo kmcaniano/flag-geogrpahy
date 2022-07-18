@@ -5,11 +5,11 @@ import Box from '@mui/material/Box';
 
 export default function SidePanel(props) {
     const successPanel = Object.keys(props.correctGuesses).map((countryCode) =>
-        <ListItem key={countryCode}><img src={'./flags/' + countryCode + '.png'} width="30px" /> &nbsp; {props.correctGuesses[countryCode]["name"]}</ListItem>
+        <ListItem key={countryCode}><img src={'./flags/' + countryCode.toLowerCase() + '.png'} width="30px" /> &nbsp; {props.correctGuesses[countryCode]["name"]}</ListItem>
     );
 
     const skippedPanel = Object.keys(props.skipped).map((countryCode) =>
-        <ListItem key={countryCode}><img src={'./flags/' + countryCode + '.png'} width="30px" /> &nbsp; {props.skipped[countryCode]["name"]}</ListItem>
+        <ListItem key={countryCode}><img src={'./flags/' + countryCode.toLowerCase() + '.png'} width="30px" /> &nbsp; {props.skipped[countryCode]["name"]}</ListItem>
     );
 
 

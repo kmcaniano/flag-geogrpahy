@@ -31,7 +31,7 @@ class MapWrapper extends Component {
             <CardMedia
               component="img"
               height="200"
-              image={process.env.PUBLIC_URL + '/flags/' + this.state.selectedCountryCode + '.png'}
+              image={process.env.PUBLIC_URL + '/flags/' + this.state.selectedCountryCode.toLowerCase() + '.png'}
             />
           </Card>
         </Box>

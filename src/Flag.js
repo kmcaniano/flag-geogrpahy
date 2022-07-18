@@ -7,6 +7,6 @@ export default function Flag(props) {
     return <Container>
       <Box component="img" sx={{
         width: "200px", height: "100px", display: "block", margin: "0 auto"
-      }} src={'./flags/' + props.countryCode + '.png'} /></Container>
+      }} src={'./flags/' + props.countryCode.toLowerCase() + '.png'} /></Container>
   }
 }
