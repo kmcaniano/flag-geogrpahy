@@ -5,13 +5,11 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-const publicPath = path.join(__dirname, '../public');
-
-app.use(express.static(path.join(__dirname, '..', publicPath)));
-app.use('/flags', express.static(path.join(__dirname, '..', publicPath, 'flags')));
+app.use(express.static('public'));
+app.use('/flags', express.static('public/flags'));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(publicPath, 'index.html'));
+  res.sendFile('index.html');
 });
 
 app.listen(PORT, () => {
