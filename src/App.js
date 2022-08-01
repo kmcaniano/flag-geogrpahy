@@ -61,9 +61,8 @@ export default function App(props) {
               Identify the flag by picking the correct country on the map!
             </Typography></Grid>
             <Grid item xs={12}>
-
-          <Flag countryCode={countryCode} /></Grid>
-          <Grid item xs={2}><SidePanel correctGuesses={correctGuess} skipped={skippedFlags}/></Grid>
+          </Grid>
+          <Grid item xs={2}><SidePanel countryCode={countryCode} correctGuesses={correctGuess} skipped={skippedFlags}/></Grid>
           <Grid item xs={10}><MapWrapper countryCode={countryCode} reloadCountry={successCountry} skipCountry={skippedCountry}/></Grid>
           </Grid>
           </Box></div>;

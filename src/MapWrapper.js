@@ -13,6 +13,8 @@ import ButtonGroup  from '@mui/material/ButtonGroup';
 
 class MapWrapper extends Component {
   countryFills = {};
+  currentZoom = 0;
+
   constructor(props) {
     super(props);
     this.state = { 'selectedCountryCode': "", 'open': false };
@@ -20,9 +22,9 @@ class MapWrapper extends Component {
 
   render() {
     return <Grid container spacing={2}><Grid item xs={12} style={{ textAlign: "center" }}>
-      <ButtonGroup variant="contained" size="large" sx={{ margin: "10px" }}>
+      <ButtonGroup variant="contained" size="large" sx={{ margin: "10px" }} disableElevation>
         <Button onClick={this.submitClick} sx={{ marginRight: "10px" }}>Submit</Button>
-        <Button onClick={this.giveUpClick}>I Give Up!</Button>
+        <Button onClick={this.giveUpClick}>Skip</Button>
       </ButtonGroup>
       <Modal open={this.state.open} onClose={() => this.setState({ "open": false })} sx={{ top: '25%', left: '30%' }}>
         <Box sx={{ width: "400px", height: "300px", border: '2px solid #000' }}>
@@ -37,8 +39,14 @@ class MapWrapper extends Component {
         </Box>
       </Modal>
     </Grid>
-      <Grid item xs={12}><Box id="mapPlaceholder" sx={{ position: "relative", width: "800px", height: "500px", display: "block", margin: "auto" }} />
-      </Grid></Grid>;
+      <Grid item xs={10}><Box id="mapPlaceholder" sx={{ position: "relative", width: "800px", height: "500px", display: "block", margin: "auto" }} /></Grid>
+      <Grid item xs>
+      <ButtonGroup variant="text" size="large" sx={{ margin: "10px" }} orientation="vertical" disableElevation>
+        <Button onClick={this.handleClick} name="in">+</Button>
+        <Button onClick={this.handleClick} name="out">-</Button>
+      </ButtonGroup>
+      </Grid>
+      </Grid>;
   }
 
   updateCountryCode(countryCode) {
@@ -110,21 +118,6 @@ class MapWrapper extends Component {
       "translate(" + event.translate + ") scale(" + event.scale + ")");
   }
 
-  dataMapFunction(datamap) {
-    datamap.svg.selectAll('.datamaps-subunit').on('click', function (geography) {
-      console.log(this.props);
-    });
-  }
-
-
-  zoomed(svg, onZoomFunction) {
-    svg.attr("width", "800px")
-      .attr("height", "300px")
-      .call(d3.behavior.zoom().on("zoom", function () {
-        svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
-      }));
-  }
-
   //Adjusted zoom functionality from this JFiddle https://jsfiddle.net/wunderbart/Lom3b0gb/
   init(map) {
     var paths = map.svg.selectAll("path"),
@@ -133,14 +126,10 @@ class MapWrapper extends Component {
     // preserve stroke thickness
     paths.style("vector-effect", "non-scaling-stroke");
 
-    // disable click on drag end
-    subunits.call(
-      d3.behavior.drag().on("dragend", function () {
-        d3.event.sourceEvent.stopPropagation();
-      })
-    );
+
+
     this.scale = {};
-    this.scale.set = this.getScalesArray();
+    this.scale.set = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     this.d3Zoom = d3.behavior.zoom().scaleExtent([1, 50]);
     this.map = map;
     this.listen(map);
@@ -148,8 +137,7 @@ class MapWrapper extends Component {
 
   listen(map) {
     map.svg
-      .call(this.d3Zoom.on("zoom", this.handleScroll.bind(this)))
-      .on("dblclick.zoom", null); // disable zoom on double-click
+      .call(this.d3Zoom.on("zoom", this.handleScroll.bind(this)));
   };
 
   handleScroll() {
@@ -158,44 +146,38 @@ class MapWrapper extends Component {
       limited = this.bound(translate, scale);
 
     this.scrolled = true;
-
     this.update(limited.translate, limited.scale);
   };
 
-  shift(direction) {
-    var center = [800 / 2, 300 / 2],
-      translate = this.d3Zoom.translate(), translate0 = [], l = [],
-      view = {
-        x: translate[0],
-        y: translate[1],
-        k: this.d3Zoom.scale()
-      }, bounded;
+  handleClick = (event) => {
+  var center = [800 / 2, 500 / 2],
+  translate = this.d3Zoom.translate(), translate0 = [], l = [],
+  view = {
+    x: translate[0],
+    y: translate[1],
+    k: this.d3Zoom.scale()
+  }, bounded;
 
-    translate0 = [
-      (center[0] - view.x) / view.k,
-      (center[1] - view.y) / view.k
-    ];
+translate0 = [
+  (center[0] - view.x) / view.k,
+  (center[1] - view.y) / view.k
+];
 
-    if (direction === "reset") {
-      view.k = 1;
-      this.scrolled = true;
-    } else {
-      view.k = this.getNextScale(direction);
-    }
+  view.k = this.getNextScale(event.target.name);
 
-    l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
+l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
 
-    view.x += center[0] - l[0];
-    view.y += center[1] - l[1];
+view.x += center[0] - l[0];
+view.y += center[1] - l[1];
 
-    bounded = this.bound([view.x, view.y], view.k);
+bounded = this.bound([view.x, view.y], view.k);
 
-    this.animate(bounded.translate, bounded.scale);
-  };
+this.animate(bounded.translate, bounded.scale);  
+};
 
   bound(translate, scale) {
     var width = 800,
-      height = 300;
+      height = 500;
 
     translate[0] = Math.min(
       (width / height) * (scale - 1),
@@ -205,7 +187,7 @@ class MapWrapper extends Component {
     translate[1] = Math.min(0, Math.max(height * (1 - scale), translate[1]));
 
     return { translate: translate, scale: scale };
-  };
+  }
 
   update(translate, scale) {
     this.d3Zoom
@@ -214,31 +196,19 @@ class MapWrapper extends Component {
 
     this.map.svg.selectAll("g")
       .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
-  };
+  }
 
   animate(translate, scale) {
-    var d3Zoom = this.d3Zoom;
-
+    var that = this;
     d3.transition().duration(350).tween("zoom", function () {
-      var iTranslate = d3.interpolate(d3Zoom.translate(), translate),
-        iScale = d3.interpolate(d3Zoom.scale(), scale);
+      var iTranslate = d3.interpolate(that.d3Zoom.translate(), translate),
+        iScale = d3.interpolate(that.d3Zoom.scale(), scale);
 
       return function (t) {
-        this.update(iTranslate(t), iScale(t));
+        that.update(iTranslate(t), iScale(t));
       };
     });
-  };
-
-  getScalesArray() {
-    var array = [],
-      scaleMaxLog = Math.log(50);
-
-    for (var i = 0; i <= 10; i++) {
-      array.push(Math.pow(Math.E, 0.1 * i * scaleMaxLog));
-    }
-
-    return array;
-  };
+  }
 
   getNextScale(direction) {
     var scaleSet = this.scale.set,
@@ -266,7 +236,7 @@ class MapWrapper extends Component {
 
     } else {
 
-      shift = this.scale.currentShift;
+      shift = this.currentZoom;
 
       if (direction === "out") {
         shift > 0 && shift--;
@@ -275,10 +245,9 @@ class MapWrapper extends Component {
       }
     }
 
-    this.scale.currentShift = shift;
-
+    this.currentZoom = shift;
     return scaleSet[shift];
-  };
+  }
 }
 
 export default MapWrapper;
