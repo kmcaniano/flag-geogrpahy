@@ -8,9 +8,9 @@ import Modal from '@mui/material/Modal';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardHeader from '@mui/material/CardHeader';
-import ButtonGroup  from '@mui/material/ButtonGroup';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
-
+//TODO convert this to function
 class MapWrapper extends Component {
   countryFills = {};
   currentZoom = 0;
@@ -24,7 +24,7 @@ class MapWrapper extends Component {
     return <Grid container spacing={2}><Grid item xs={12} style={{ textAlign: "center" }}>
       <ButtonGroup variant="contained" size="large" sx={{ margin: "10px" }} disableElevation>
         <Button onClick={this.submitClick} sx={{ marginRight: "10px" }}>Submit</Button>
-        <Button onClick={this.giveUpClick}>Skip</Button>
+        <Button onClick={this.skipClick}>Skip</Button>
       </ButtonGroup>
       <Modal open={this.state.open} onClose={() => this.setState({ "open": false })} sx={{ top: '25%', left: '30%' }}>
         <Box sx={{ width: "400px", height: "300px", border: '2px solid #000' }}>
@@ -41,12 +41,12 @@ class MapWrapper extends Component {
     </Grid>
       <Grid item xs={10}><Box id="mapPlaceholder" sx={{ position: "relative", width: "800px", height: "500px", display: "block", margin: "auto" }} /></Grid>
       <Grid item xs>
-      <ButtonGroup variant="text" size="large" sx={{ margin: "10px" }} orientation="vertical" disableElevation>
-        <Button onClick={this.handleClick} name="in">+</Button>
-        <Button onClick={this.handleClick} name="out">-</Button>
-      </ButtonGroup>
+        <ButtonGroup variant="text" size="large" sx={{ margin: "10px" }} orientation="vertical" disableElevation>
+          <Button onClick={this.handleClick} sx={{ fontSize: "24px" }} name="in">+</Button>
+          <Button onClick={this.handleClick} sx={{ fontSize: "24px" }} name="out">-</Button>
+        </ButtonGroup>
       </Grid>
-      </Grid>;
+    </Grid>;
   }
 
   updateCountryCode(countryCode) {
@@ -71,10 +71,10 @@ class MapWrapper extends Component {
     }
   }
 
-  giveUpClick = () => {
-    this.countryFills[this.props.selectedCountryCode] = { fillKey: 'SKIPPED' };
+  skipClick = () => {
+    this.countryFills[this.props.countryCode] = { fillKey: 'SKIPPED' };
     this.map.updateChoropleth(this.countryFills);
-    this.props.skipCountry(this.state.selectedCountryCode);
+    this.props.skipCountry(this.props.countryCode);
   }
 
   componentDidMount() {
@@ -120,13 +120,7 @@ class MapWrapper extends Component {
 
   //Adjusted zoom functionality from this JFiddle https://jsfiddle.net/wunderbart/Lom3b0gb/
   init(map) {
-    var paths = map.svg.selectAll("path"),
-      subunits = map.svg.selectAll(".datamaps-subunit");
-
-    // preserve stroke thickness
-    paths.style("vector-effect", "non-scaling-stroke");
-
-
+    var paths = map.svg.selectAll("path");
 
     this.scale = {};
     this.scale.set = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -150,34 +144,34 @@ class MapWrapper extends Component {
   };
 
   handleClick = (event) => {
-  var center = [800 / 2, 500 / 2],
-  translate = this.d3Zoom.translate(), translate0 = [], l = [],
-  view = {
-    x: translate[0],
-    y: translate[1],
-    k: this.d3Zoom.scale()
-  }, bounded;
+    var center = [document.getElementById("mapPlaceholder").offsetWidth / 2, document.getElementById("mapPlaceholder").offsetHeight / 2],
+      translate = this.d3Zoom.translate(), translate0 = [], l = [],
+      view = {
+        x: translate[0],
+        y: translate[1],
+        k: this.d3Zoom.scale()
+      }, bounded;
 
-translate0 = [
-  (center[0] - view.x) / view.k,
-  (center[1] - view.y) / view.k
-];
+    translate0 = [
+      (center[0] - view.x) / view.k,
+      (center[1] - view.y) / view.k
+    ];
 
-  view.k = this.getNextScale(event.target.name);
+    view.k = this.getNextScale(event.target.name);
 
-l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
+    l = [translate0[0] * view.k + view.x, translate0[1] * view.k + view.y];
 
-view.x += center[0] - l[0];
-view.y += center[1] - l[1];
+    view.x += center[0] - l[0];
+    view.y += center[1] - l[1];
 
-bounded = this.bound([view.x, view.y], view.k);
+    bounded = this.bound([view.x, view.y], view.k);
 
-this.animate(bounded.translate, bounded.scale);  
-};
+    this.animate(bounded.translate, bounded.scale);
+  };
 
   bound(translate, scale) {
-    var width = 800,
-      height = 500;
+    var width = document.getElementById("mapPlaceholder").offsetWidth,
+      height = document.getElementById("mapPlaceholder").offsetHeight;
 
     translate[0] = Math.min(
       (width / height) * (scale - 1),
